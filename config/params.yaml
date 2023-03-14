@@ -1,0 +1,75 @@
+dataset_dir: data/raw/
+datetime_columns:
+- UTC
+int64_columns:
+- TVOC[ppb]  
+- eCO2[ppm]  
+- Raw H2
+- Raw Ethanol  
+- CNT
+- Fire Alarm
+float64_columns:
+- Temperature[C]
+- Humidity[%]
+- Pressure[hPa]
+- PM1.0
+- PM2.5
+- NC0.5
+- NC1.0
+- NC2.5
+
+predictors:
+- UTC
+- Temperature[C]
+- Humidity[%]
+- Pressure[hPa]
+- PM1.0
+- PM2.5
+- NC0.5
+- NC1.0
+- NC2.5
+- TVOC[ppb]  
+- eCO2[ppm]  
+- Raw H2
+- Raw Ethanol  
+
+
+range Temperature[C]:
+-
+-
+range Humidity[%]:
+-
+-
+range Pressure[hPa]:
+-
+-
+range PM1.0:
+-
+-
+range PM2.5:
+-
+-
+range NC0.5:
+-
+-
+range NC1.0:
+-
+-
+range NC2.5:
+-
+-
+range TVOC[ppb]:  
+-
+-
+range eCO2[ppm]: 
+-
+-
+range Raw H2:
+-
+-
+range Raw Ethanol:  
+-
+-
+range CNT:
+-
+-
