@@ -1,2 +1,2 @@
 Teuku Ghaisa Aufa
-Project Name: Smoke Detector
+Project Name: Virtual Environment Implementation; Smoke Detector Dataset
